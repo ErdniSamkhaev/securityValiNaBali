@@ -26,13 +26,13 @@
 .contacts__wrap-info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 15px 37px;
+  gap: 15px 30px;
 }
 
 .contacts__info {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
 }
 
 .contacts__info-title {
@@ -46,9 +46,9 @@
 }
 
 .contacts__info-link {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
-  line-height: 22px;
+  line-height: 20px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -61,7 +61,8 @@
 }
 
 .contacts__info-text {
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 400;
   line-height: 20px;
   margin: 0;
   display: flex;
