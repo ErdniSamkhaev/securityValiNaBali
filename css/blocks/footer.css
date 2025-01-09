@@ -1,6 +1,35 @@
 .footer {
   background-color: #000000;
-  padding: 20px 0;
+  padding: 16px 0;
+}
+.footer__bottom {
+  display: flex;
+}
+
+.footer__right {
+  display: grid;
+  grid-template-columns: 200px 440px;
+}
+
+.footer__title {
+  font-family: "Exo 2", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400px;
+  letter-spacing: 0.04em;
+  margin: 0;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.footer__nav-about-links, .footer__nav-more-links {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.footer__nav-more {
+  display: flex;
 }
 
 .footer__content {
@@ -9,6 +38,7 @@
   align-items: center;
   gap: 40px;
   padding: 0 0 20px;
+  margin: 0 0 30px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -32,4 +62,30 @@
   font-weight: 400;
   line-height: 16px;
   margin: 0;
+}
+
+.footer__bottom-title-company {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0 0 15px;
+}
+
+.footer__company {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__company-text {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.5);
 }
