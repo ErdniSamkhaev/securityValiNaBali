@@ -50,7 +50,7 @@
   line-height: 20px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
 }
 
 .contacts__info-link svg {
