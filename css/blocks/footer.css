@@ -4,6 +4,7 @@
 }
 .footer__bottom {
   display: flex;
+  margin: 0 0 10px;
 }
 
 .footer__right {
@@ -121,4 +122,27 @@
   flex-direction: column;
   gap: 5px;
   margin: 0;
+}
+
+.footer__copyright {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.footer__copyright-lang {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500px;
+}
+
+.footer__copyright-text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  display: block;
+  padding: 15px 0 0;
 }
